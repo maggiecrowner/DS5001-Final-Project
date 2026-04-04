@@ -69,7 +69,7 @@ Parse the raw data into the three core tables of your edition: the `LIB`, `CORPU
 The source documents the corpus comprises. These may be books, plays, newspaper articles, abstracts, blog posts, etc. Note that these are not documents in the sense used to describe a bag-of-words representation of a text, e.g. chapter.
 
 - **UVA Box URL:** https://virginia.box.com/s/fhzudg34je9xls5bfcbi4xdnaiek74rj
-- **GitHub URL for notebook used to create:**
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/ParsedandAnnotatedData.ipynb
 - **Delimiter:** |
 - **Number of observations:** 6027
 - **List of features, including at least three that may be used for model summarization (e.g. date, author, etc.):**
@@ -80,7 +80,7 @@ The source documents the corpus comprises. These may be books, plays, newspaper 
 The sequence of word tokens in the corpus, indexed by their location in the corpus and document structures.
 
 - **UVA Box URL:** https://virginia.box.com/s/ijkqovrdgvrmctsdqobymig2p98q9x0m
-- **GitHub URL for notebook used to create:**
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/ParsedandAnnotatedData.ipynb
 - **Delimiter:** |
 - **Number of observations** (should be >= 500,000 and <= 2,000,000):
 - **OHCO Structure (as delimited column names):**
@@ -91,7 +91,7 @@ The sequence of word tokens in the corpus, indexed by their location in the corp
 The unique word types (terms) in the corpus.
 
 - **UVA Box URL:**
-- **GitHub URL for notebook used to create:**
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/ParsedandAnnotatedData.ipynb
 - **Delimiter:**
 - **Number of observations:**
 - **Columns (as delimited names, including `n`, `p`, `i`, `dfidf`, `porter_stem`, `max_pos`, `max_pos_group`, `stop`):**
