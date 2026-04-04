@@ -42,14 +42,14 @@ When you are finished, you will make the results of your work available in GitHu
 
 Provide a brief description of your source material, including its provenance and content. Tell us where you found it and what kind of content it contains.
 
-*The Song Lyrics data set was compiled by Kaggle user deepshah16. It is a corpus of song lyrics from 21 different artists, with csv or json files available to download for each artist.*
+*The Song Lyrics data set was compiled by Kaggle user deepshah16. It is a collection of song lyrics from 21 different artists, with csv or json files available to download for each artist. 10 artists (Ariana Grande, Justin Bieber, Nicki Minaj, Selena Gomez, Post Malone, Maroon5, Taylor Swift, Drake, DuaLipa, and Beyonce) were selected for this corpus.*
 
 ### Source Features (1)
 
 - **Source URL:** https://www.kaggle.com/datasets/deepshah16/song-lyrics-dataset
 - **UVA Box URL:** https://virginia.box.com/s/af0cadpz4j7l0ye8ukkvz651y9dkr42g
-- **Number of raw documents:** 6027 songs
-- **Total size of raw documents (e.g. in MB):**
+- **Number of raw documents:** 3097 songs (from the 10 artists specified above)
+- **Total size of raw documents (e.g. in MB):** ~5.52 MB
 - **File format(s), e.g. XML, plaintext, etc.:** CSV
 
 ### Source Document Structure (1)
@@ -71,9 +71,9 @@ The source documents the corpus comprises. These may be books, plays, newspaper 
 - **UVA Box URL:** https://virginia.box.com/s/fhzudg34je9xls5bfcbi4xdnaiek74rj
 - **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/ParsedandAnnotatedData.ipynb
 - **Delimiter:** |
-- **Number of observations:** 6027
-- **List of features, including at least three that may be used for model summarization (e.g. date, author, etc.):**
-- **Average length of each document in characters:**
+- **Number of observations:** 3097
+- **List of features, including at least three that may be used for model summarization (e.g. date, author, etc.):** Artist, Album, Title, Year, Decade, doc_length_words, doc_length_chars
+- **Average length of each document in characters:** 1787.52
 
 ### CORPUS (2)
 
@@ -82,25 +82,25 @@ The sequence of word tokens in the corpus, indexed by their location in the corp
 - **UVA Box URL:** https://virginia.box.com/s/ijkqovrdgvrmctsdqobymig2p98q9x0m
 - **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/ParsedandAnnotatedData.ipynb
 - **Delimiter:** |
-- **Number of observations** (should be >= 500,000 and <= 2,000,000):
-- **OHCO Structure (as delimited column names):**
-- **Columns (as delimited column names, including `token_str`, `term_str`, `pos`, and `pos_group`):**
+- **Number of observations** (should be >= 500,000 and <= 2,000,000): 1129453
+- **OHCO Structure (as delimited column names):** Artist, Album, Title, token_str
+- **Columns (as delimited column names, including `token_str`, `term_str`, `pos`, and `pos_group`):** Artist, Album, Title, WordID (multiindex); token_str, term_str, pos, pos_group
 
 ### VOCAB (2)
 
 The unique word types (terms) in the corpus.
 
-- **UVA Box URL:**
+- **UVA Box URL:** https://virginia.box.com/s/a2njs9ipjxrgam9un7sr4yn3f6f196ny
 - **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/ParsedandAnnotatedData.ipynb
-- **Delimiter:**
-- **Number of observations:**
-- **Columns (as delimited names, including `n`, `p`, `i`, `dfidf`, `porter_stem`, `max_pos`, `max_pos_group`, `stop`):**
+- **Delimiter:** |
+- **Number of observations:** 23703
+- **Columns (as delimited names, including `n`, `p`, `i`, `dfidf`, `porter_stem`, `max_pos`, `max_pos_group`, `stop`):** term_str (index); n, p, i, dfidf, porter_stem, max_pos, max_pos_group, stop, ngram_length
 
 > **Note:** Your VOCAB may contain ngrams. If so, add a feature for `ngram_length`.
 
 **Top 20 significant words in the corpus by DFIDF:**
 
-*(INSERT LIST HERE)*
+*want, make, aint, let, youre, say, wanna, baby, tell, pre, need, right, time, oh, come, way, thats, yeah, ill, love*
 
 ---
 
