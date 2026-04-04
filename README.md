@@ -2,10 +2,10 @@
 
 ## Metadata
 
-- **Full Name:**
-- **Userid:**
-- **GitHub Repo URL:**
-- **UVA Box URL:**
+- **Full Name:** Maggie Crowner
+- **Userid:** mqq9sb
+- **GitHub Repo URL:** https://github.com/maggiecrowner/DS5001-Final-Project/tree/main
+- **UVA Box URL:** https://virginia.box.com/s/aq7x82f8iy5llnog0bymnwls7ayorzgn
 
 ---
 
@@ -42,21 +42,21 @@ When you are finished, you will make the results of your work available in GitHu
 
 Provide a brief description of your source material, including its provenance and content. Tell us where you found it and what kind of content it contains.
 
-*(INSERT DESCRIPTION HERE)*
+*The Song Lyrics data set was compiled by Kaggle user deepshah16. It is a corpus of song lyrics from 21 different artists, with csv or json files available to download for each artist.*
 
 ### Source Features (1)
 
-- **Source URL:**
-- **UVA Box URL:**
-- **Number of raw documents:**
+- **Source URL:** https://www.kaggle.com/datasets/deepshah16/song-lyrics-dataset
+- **UVA Box URL:** https://virginia.box.com/s/af0cadpz4j7l0ye8ukkvz651y9dkr42g
+- **Number of raw documents:** 6027 songs
 - **Total size of raw documents (e.g. in MB):**
-- **File format(s), e.g. XML, plaintext, etc.:**
+- **File format(s), e.g. XML, plaintext, etc.:** CSV
 
 ### Source Document Structure (1)
 
 Provide a brief description of the internal structure of each document. Describe the typical elements found in a document and their relation to each other. For example, a corpus of letters might be described as having a date, an addressee, a salutation, a set of content paragraphs, and a closing. If there are various structures, state that.
 
-*(INSERT DESCRIPTION HERE)*
+*The data is split into columns indicating the artist, album, song title, lyrics, release date, and release year. Each document (song) is represented as one row in the data set, with the full song lyrics written in the lyrics column, and the other columns providing supplementary information about the song.*
 
 ---
 
