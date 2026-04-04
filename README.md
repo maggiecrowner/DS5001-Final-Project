@@ -68,10 +68,10 @@ Parse the raw data into the three core tables of your edition: the `LIB`, `CORPU
 
 The source documents the corpus comprises. These may be books, plays, newspaper articles, abstracts, blog posts, etc. Note that these are not documents in the sense used to describe a bag-of-words representation of a text, e.g. chapter.
 
-- **UVA Box URL:**
+- **UVA Box URL:** https://virginia.box.com/s/fhzudg34je9xls5bfcbi4xdnaiek74rj
 - **GitHub URL for notebook used to create:**
-- **Delimiter:**
-- **Number of observations:**
+- **Delimiter:** |
+- **Number of observations:** 6027
 - **List of features, including at least three that may be used for model summarization (e.g. date, author, etc.):**
 - **Average length of each document in characters:**
 
@@ -79,9 +79,9 @@ The source documents the corpus comprises. These may be books, plays, newspaper 
 
 The sequence of word tokens in the corpus, indexed by their location in the corpus and document structures.
 
-- **UVA Box URL:**
+- **UVA Box URL:** https://virginia.box.com/s/ijkqovrdgvrmctsdqobymig2p98q9x0m
 - **GitHub URL for notebook used to create:**
-- **Delimiter:**
+- **Delimiter:** |
 - **Number of observations** (should be >= 500,000 and <= 2,000,000):
 - **OHCO Structure (as delimited column names):**
 - **Columns (as delimited column names, including `token_str`, `term_str`, `pos`, and `pos_group`):**
