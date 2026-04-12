@@ -110,43 +110,43 @@ The unique word types (terms) in the corpus.
 
 A bag-of-words representation of the CORPUS.
 
-- **UVA Box URL:**
-- **GitHub URL for notebook used to create:**
-- **Delimiter:**
-- **Bag (expressed in terms of OHCO levels):**
-- **Number of observations:**
-- **Columns (as delimited names, including `n`, `tfidf`):**
+- **UVA Box URL:** https://virginia.box.com/s/jnjmet326j10jijnzwjcj87n35dfjkwl
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/DerivedTables.ipynb
+- **Delimiter:** |
+- **Bag (expressed in terms of OHCO levels):** Title
+- **Number of observations:** 236578
+- **Columns (as delimited names, including `n`, `tfidf`):** Artist, Album, Title, term_str (multiindex); n
 
 ### DTM (3)
 
 A representation of the BOW as a sparse count matrix.
 
-- **UVA Box URL:**
-- **UVA Box URL of BOW used to generate (if applicable):**
-- **GitHub URL for notebook used to create:**
-- **Delimiter:**
-- **Bag (expressed in terms of OHCO levels):**
+- **UVA Box URL:** https://virginia.box.com/s/9g0v251d9103gw4xibbhwvks7m9pc2d2
+- **UVA Box URL of BOW used to generate (if applicable):** See above, generated in same notebook
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/DerivedTables.ipynb
+- **Delimiter:** |
+- **Bag (expressed in terms of OHCO levels):** Title
 
 ### TFIDF (3)
 
 A Document-Term matrix with TFIDF values.
 
-- **UVA Box URL:**
-- **UVA Box URL of DTM or BOW used to create:**
-- **GitHub URL for notebook used to create:**
-- **Delimiter:**
-- **Description of TFIDF formula:**
+- **UVA Box URL:** https://virginia.box.com/s/cieo8adcs24q8bhd3wdxmjcv47dor6c7
+- **UVA Box URL of DTM or BOW used to create:** See above, generated in same notebook
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/DerivedTables.ipynb
+- **Delimiter:** |
+- **Description of TFIDF formula:** TF sum method - term count divided by total number of terms in the document; IDF standard method - log_2 of number of documents divided by total number of documents the term appears in; TFIDF - TF * IDF 
 
 ### Reduced and Normalized TFIDF_L2 (3)
 
 A Document-Term matrix with L2 normalized TFIDF values.
 
-- **UVA Box URL:**
-- **UVA Box URL of source TFIDF table:**
-- **GitHub URL for notebook used to create:**
-- **Delimiter:**
-- **Number of features (i.e. significant words):**
-- **Principle of significant word selection:**
+- **UVA Box URL:** https://virginia.box.com/s/959w70gbj2ckxew7clguvy3updzfn3t6
+- **UVA Box URL of source TFIDF table:** See above, generated in same notebook
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/DerivedTables.ipynb
+- **Delimiter:** |
+- **Number of features (i.e. significant words):** 8350
+- **Principle of significant word selection:** Terms only appearing in one document were removed, terms appearing in at least 2 documents were deemed "significant" and kept in the L2 normalized TFIDF matrix
 
 ---
 
