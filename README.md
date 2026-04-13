@@ -71,9 +71,9 @@ The source documents the corpus comprises. These may be books, plays, newspaper 
 - **UVA Box URL:** https://virginia.box.com/s/fhzudg34je9xls5bfcbi4xdnaiek74rj
 - **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/ParsedandAnnotatedData.ipynb
 - **Delimiter:** |
-- **Number of observations:** 3073
+- **Number of observations:** 2960 (songs with unreleased lyrics were removed from the raw files)
 - **List of features, including at least three that may be used for model summarization (e.g. date, author, etc.):** Artist, Album, Title, Year, Decade, doc_length_words, doc_length_chars
-- **Average length of each document in characters:** 1585.4
+- **Average length of each document in characters:** 1642.78
 
 ### CORPUS (2)
 
@@ -82,7 +82,7 @@ The sequence of word tokens in the corpus, indexed by their location in the corp
 - **UVA Box URL:** https://virginia.box.com/s/ijkqovrdgvrmctsdqobymig2p98q9x0m
 - **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/ParsedandAnnotatedData.ipynb
 - **Delimiter:** |
-- **Number of observations** (should be >= 500,000 and <= 2,000,000): 987386
+- **Number of observations** (should be >= 500,000 and <= 2,000,000): 985352
 - **OHCO Structure (as delimited column names):** Artist, Album, Title, token_str
 - **Columns (as delimited column names, including `token_str`, `term_str`, `pos`, and `pos_group`):** Artist, Album, Title, WordID (multiindex); token_str, term_str, pos, pos_group
 
@@ -100,7 +100,7 @@ The unique word types (terms) in the corpus.
 
 **Top 20 significant words in the corpus by DFIDF:**
 
-*baby, time, yeah, say, youre, got, want, pre, make, way, cause, let, ill, oh, wanna, need, come, right, feel, love*
+*say, baby, time, want, yeah, pre, youre, got, make, way, let, ill, wanna, need, come, cause, right, feel, oh, heart*
 
 ---
 
