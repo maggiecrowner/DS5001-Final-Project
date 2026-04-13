@@ -189,7 +189,7 @@ Include a scatterplot of documents in the space created by the first two compone
 
 **Briefly describe the nature of the polarity you see in the first component:**
 
-*(INSERT DESCRIPTION HERE)*
+*PC0 captures how much a term is based on narrative language (released, lyrics, once) versus emotional language (love, baby, you). This separates descriptive storytelling from pure expression in song lyrics across artists.*
 
 ### PCA Visualization 2 (4)
 
@@ -201,7 +201,7 @@ Include a scatterplot of documents in the space created by the second two compon
 
 **Briefly describe the nature of the polarity you see in the second component:**
 
-*(INSERT DESCRIPTION HERE)*
+*PC1 captures how much a term is based on specific artists or occasions (christmas, gaga, la) versus emotional language (love, baby, you). This separates references from general themes in song lyrics across artists.*
 
 ### LDA TOPIC (4)
 
