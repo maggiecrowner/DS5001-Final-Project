@@ -183,9 +183,9 @@ The component-term matrix generated.
 
 Include a scatterplot of documents in the space created by the first two components. Color the points based on a metadata feature associated with the documents. Also include a scatterplot of the loadings for the same two components. (This does not need a feature mapped onto color.)
 
-*(INSERT IMAGE HERE)*
+![](images/PCA_components_PC0_PC1.png)
 
-*(INSERT IMAGE HERE)*
+![](images/PCA_loadings_PC0_PC1.png)
 
 **Briefly describe the nature of the polarity you see in the first component:**
 
@@ -195,9 +195,9 @@ Include a scatterplot of documents in the space created by the first two compone
 
 Include a scatterplot of documents in the space created by the second two components. Color the points based on a metadata feature associated with the documents. Also include a scatterplot of the loadings for the same two components. (This does not need a feature mapped onto color.)
 
-*(INSERT IMAGE HERE)*
+![](images/PCA_components_PC1_PC2.png)
 
-*(INSERT IMAGE HERE)*
+![](images/PCA_loadings_PC1_PC2.png)
 
 **Briefly describe the nature of the polarity you see in the second component:**
 
