@@ -114,7 +114,7 @@ A bag-of-words representation of the CORPUS.
 - **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/DerivedTables.ipynb
 - **Delimiter:** |
 - **Bag (expressed in terms of OHCO levels):** Title
-- **Number of observations:** 236578
+- **Number of observations:** 235266
 - **Columns (as delimited names, including `n`, `tfidf`):** Artist, Album, Title, term_str (multiindex); n
 
 ### DTM (3)
