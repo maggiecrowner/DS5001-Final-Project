@@ -154,30 +154,30 @@ A Document-Term matrix with L2 normalized TFIDF values.
 
 ### PCA Components (4)
 
-- **UVA Box URL:**
-- **UVA Box URL of the source TFIDF_L2 table:**
-- **GitHub URL for notebook used to create:**
-- **Delimiter:**
-- **Number of components:**
-- **Library used to generate:**
-- **Top 5 positive terms for first component:**
-- **Top 5 negative terms for second component:**
+- **UVA Box URL:** https://virginia.box.com/s/8ymkfcpm7c469zgb5dg6082jxamad0bk
+- **UVA Box URL of the source TFIDF_L2 table:** https://virginia.box.com/s/959w70gbj2ckxew7clguvy3updzfn3t6
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/Models.ipynb
+- **Delimiter:** |
+- **Number of components:** 5
+- **Library used to generate:** sklearn
+- **Top 5 positive terms for first component:** la, edge, christmas, snippet, chris
+- **Top 5 negative terms for second component:** want, body, romance, bad, gaga
 
 ### PCA DCM (4)
 
 The document-component matrix generated.
 
-- **UVA Box URL:**
-- **GitHub URL for notebook used to create:**
-- **Delimiter:**
+- **UVA Box URL:** https://virginia.box.com/s/nh6ln5dyzodmuy0o5rwvun5yzilewe03
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/Models.ipynb
+- **Delimiter:** |
 
 ### PCA Loadings (4)
 
 The component-term matrix generated.
 
-- **UVA Box URL:**
-- **GitHub URL for notebook used to create:**
-- **Delimiter:**
+- **UVA Box URL:** https://virginia.box.com/s/tpofa2p0mq3rgqpyrk0vf4ak3nzyjtxe
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/Models.ipynb
+- **Delimiter:** |
 
 ### PCA Visualization 1 (4)
 
@@ -189,7 +189,7 @@ Include a scatterplot of documents in the space created by the first two compone
 
 **Briefly describe the nature of the polarity you see in the first component:**
 
-*PC0 captures how much a term is based on narrative language (released, lyrics, once) versus emotional language (love, baby, you). This separates descriptive storytelling from pure expression in song lyrics across artists.*
+*PC0 captures how much a term is based on specific artists or occasions (christmas, gaga, chris) versus emotional language (love, baby, you). This separates direct references from general themes in song lyrics across artists.*
 
 ### PCA Visualization 2 (4)
 
@@ -201,7 +201,7 @@ Include a scatterplot of documents in the space created by the second two compon
 
 **Briefly describe the nature of the polarity you see in the second component:**
 
-*PC1 captures how much a term is based on specific artists or occasions (christmas, gaga, la) versus emotional language (love, baby, you). This separates references from general themes in song lyrics across artists.*
+*PC1 captures how much a term is used for literary, grammatical purposes (will, was, are) versus content and expression, especially to do with love and conflict (romance, want, revenge). This separates how something is said from what is being talked about in song lyrics across artists.*
 
 ### LDA TOPIC (4)
 
