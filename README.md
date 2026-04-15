@@ -205,42 +205,42 @@ Include a scatterplot of documents in the space created by the second two compon
 
 ### LDA TOPIC (4)
 
-- **UVA Box URL:**
-- **UVA Box URL of count matrix used to create:**
-- **GitHub URL for notebook used to create:**
-- **Delimiter:**
-- **Library used to compute:**
-- **A description of any filtering, e.g. POS (Nouns and Verbs only):**
-- **Number of components:**
-- **Any other parameters used:**
+- **UVA Box URL:** https://virginia.box.com/s/6pe3vhldpplll34eknsemewu69nzvhu0
+- **UVA Box URL of count matrix used to create:** https://virginia.box.com/s/nnebliv2gx3znq8vvwso0vx6yhtd4s3l
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/Models2.ipynb
+- **Delimiter:** |
+- **Library used to compute:** sklearn
+- **A description of any filtering, e.g. POS (Nouns and Verbs only):** Default English stop words removed using the text package, filtered to include nouns only
+- **Number of components:** 20
+- **Any other parameters used:** max_iter = 100, n_top_terms=9
 
 **Top 5 words and best-guess labels for topic five topics by mean document weight:**
 
-- T00:
-- T01:
-- T02:
-- T03:
-- T04:
+- T18: way im eyes night life (label: Introspection) 
+- T02: man time boy im day (label: Daily Life)
+- T07: home somebody lights youre look (label: Longing)
+- T13: girl heart time youre cause (label: Romance)
+- T06: yeah ah oh woah ill (label: Ad-libs)
 
 ### LDA THETA (4)
 
-- **UVA Box URL:**
-- **GitHub URL for notebook used to create:**
-- **Delimiter:**
+- **UVA Box URL:** https://virginia.box.com/s/xap24wuixe7l1gm0xnhywtddmfmij38e
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/Models2.ipynb
+- **Delimiter:** |
 
 ### LDA PHI (4)
 
-- **UVA Box URL:**
-- **GitHub URL for notebook used to create:**
-- **Delimiter:**
+- **UVA Box URL:** https://virginia.box.com/s/w4j0xqikvfp8qj9obnsprf6peluoo64o
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/Models2.ipynb
+- **Delimiter:** |
 
 ### LDA + PCA Visualization (4)
 
 Apply PCA to the THETA table and plot the topics in the space opened by the first two components. Size the points based on the mean document weight of each topic (using the THETA table). Color the points based on a metadata feature from the LIB table. Provide a brief interpretation of what you see.
 
-*(INSERT IMAGE HERE)*
+![](images/lda_pca_plot.png)
 
-*(INSERT INTERPRETATION HERE)*
+*PC0 has top positive topics of Dance and Longing, and top negative topics of Lady Gaga and Night. PC1 has top positive topics of Dance and Feminine, and top negative topics of Lady Gaga and Longing. We can also observe the decade that most words in each topic (ex. Dance - 1990s, Feminine - 2020s) which allows us to see some interesting trends. PC0 does not have an obvious meaning, but this is likely due to the very subjective best guess labels I assigned to each topic. PC1 appears to separate topics related to confidence and self (dance, feminine, rap) from topics related to love and relationships (longing, drama, introspection).*
 
 ---
 
