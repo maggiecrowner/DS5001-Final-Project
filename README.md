@@ -276,7 +276,7 @@ Computed sentiment per bag computed from BOW_SENT.
 
 Plot sentiment over some metric space, such as time. If you don't have a metric metadata feature, plot sentiment over a feature of your choice. You may use a bar chart or a line graph.
 
-*(INSERT IMAGE HERE)*
+![](images/sentiment_plot.png)
 
 ---
 
