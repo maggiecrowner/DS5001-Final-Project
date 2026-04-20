@@ -286,20 +286,20 @@ Plot sentiment over some metric space, such as time. If you don't have a metric 
 
 A table of word2vec features associated with terms in the VOCAB table.
 
-- **UVA Box URL:**
-- **GitHub URL for notebook used to create:**
-- **Delimiter:**
-- **Document bag expressed in terms of OHCO levels:**
-- **Number of features generated:**
-- **The library used to generate the embeddings:**
+- **UVA Box URL:** https://virginia.box.com/s/5znmezhoz2uzrrsb41q6eozgehhrwn6b
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/Word2Vec.ipynb
+- **Delimiter:** | 
+- **Document bag expressed in terms of OHCO levels:** Title
+- **Number of features generated:** 256
+- **The library used to generate the embeddings:** gensim
 
 ### Word2vec tSNE Plot (4)
 
 Plot word embedding features in two dimensions using t-SNE. Describe a cluster in the plot that captures your attention.
 
-*(INSERT IMAGE HERE)*
+![](images/tSNE_plot.png)
 
-*(INSERT DESCRIPTION HERE)*
+*An interesting cluster in the plot appears in the top right corner of the image, where we see a cluster of paired points, all describing names of artists. It seems to have accurately paired the first and last names of the people (taylor and swift, ed and sheeran, adam and levine, etc) which was interesting to observe, and also notable that these people were mentioned in the lyrics contained in the corpus. The word embedding features were able to identify and group these names as pairs, and also as a general cluster of names referenced in songs.*
 
 ---
 
