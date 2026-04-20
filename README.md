@@ -313,7 +313,7 @@ Consider the following visualization types: hierarchical cluster diagrams, heatm
 
 ![](images/heatmap_topic_by_decade.png)
 
-*(INSERT INTERPRETATION HERE)*
+*The figure above shows the prevalence of each of the top 5 topics (the same one as discussed in Models-LDA TOPIC) for songs in each decade. It is most interesting to observe the change in a topic's prevalence over time. For example, ad-libs seem to have been popular in the 90s, decreased popularity after that, and are now in the 20s becoming a trend again. This shows one clear example of a reemerging trend. Another interesting insight is that the 90s lacked romance topics in this corpus, compared to romance being a relatively stable topic across more recent decades.*
 
 ### Riff 2 (5)
 
