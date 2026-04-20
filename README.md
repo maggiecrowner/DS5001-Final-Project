@@ -311,7 +311,7 @@ Consider the following visualization types: hierarchical cluster diagrams, heatm
 
 ### Riff 1 (5)
 
-*(INSERT IMAGE HERE)*
+![](images/heatmap_topic_by_decade.png)
 
 *(INSERT INTERPRETATION HERE)*
 
