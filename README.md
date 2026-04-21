@@ -317,15 +317,15 @@ Consider the following visualization types: hierarchical cluster diagrams, heatm
 
 ### Riff 2 (5)
 
-*(INSERT IMAGE HERE)*
+![](images/scatter_length_sentiment.png)
 
-*(INSERT INTERPRETATION HERE)*
+*The figure above shows the average sentiment score of artists compared to their average song length in words. The first thing that jumps out is that Post Malone is the only artist in the corpus with a negative average sentiment score. However, there is a general trend of artists with a high number of average words per song having a very high or very low average sentiment score. On the other hand, artists with fewer words per song tend to have a more neutral average sentiment score in this corpus. This provides some evidence that "wordier" artists may be more expressive/emotional in either direction with their lyrics.*
 
 ### Riff 3 (5)
 
-*(INSERT IMAGE HERE)*
+![](images/taylorswift_albums.png)
 
-*(INSERT INTERPRETATION HERE)*
+*The figure above dives into just one artist (Taylor Swift)'s topic models per album to examine her content changes across time. Again, for simplicity, only the top 5 topics from Models-LDA TOPIC were used, with their corresponding best guess labels. We can see that Taylor Swift and evermore are more introspective albums, while Speak Now and Lover have more themes of longing. Folklore has many mentions of romance while Speak Now has very few. Lastly, her albums between 2010-2019 have the most ad-libs compared to earlier or later albums.*
 
 ---
 
@@ -333,4 +333,4 @@ Consider the following visualization types: hierarchical cluster diagrams, heatm
 
 Describe something interesting about your corpus that you discovered during the process of completing this assignment. At a minimum, use 250 words, but you may use more. You may also add images if you'd like.
 
-*(INSERT INTERPRETATION HERE)*
+*Something interesting, and realistic, that I discovered about this corpus was its lack of clear boundaries between topics and PCA components. It was difficult to assign best guess labels to the topics that emerged, because there was a lot of overlap between topics and lack of clear themes within many of the topics. Since topics are derived from their frequency and placement in documents and the corpus as a whole, this highlights how subjective song writing is. For example, many metaphors could be in play that don't reflect the literal meaning of the words used, which could skew the results of the topic modeling. A similar effect could have occurred for PCA. For sentiment, AFINN scores words literally, and would also not detect metaphors. Furthermore, this corpus mixes artists, genres, and decades with very different styles, and metaphors may not even show up in the same way in one decade/artist/genre versus another, which adds another layer of complexity. Although song writing remains a very personal process, I was able to extract some insights from these models and compare it across time, artists, and song characteristics. One of the most impactful insights, in my opinion, was the cyclical trend observed with the ad-libs topic in the heatmap. This may reflect the broader resurgence of older cultural trends, which we can observe across many industries. In the music industry, this may indicate that heavily stylized music is becoming more popular in an era where technology and performance matters. This is also notable because it offers evidence that even text models can indirectly capture shifts in musical style and production conventions and not just lyrics alone, since ad-libs are unique lyrics due to carrying little to no semantic content. Since the topics of introspection and daily life were also highly prevalent in the 90s, it would be interesting to observe whether or not these topics become more prevalent in the coming years as well, if they were to follow a similar cyclical trend. However, it is important to note that only 10 artists are included in this corpus, so no evidence presented can yet be taken as a fact. More data using more diverse artists (varying genres and decades and subject matter) would be required to confirm any of these trends and highlight new ones. The models built during this project could be applied to a larger corpus in order to conduct this future work. Ultimately, these models that were presented in this project are better understood as lenses that reveal some structures rather than tools that fully capture the complexity of artistic expression.*
