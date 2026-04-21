@@ -252,7 +252,7 @@ Sentiment values associated with a subset of the VOCAB from a curated sentiment 
 
 - **UVA Box URL:** https://virginia.box.com/s/637jj38v0vwctgf0un66he7qzzghfd2u
 - **UVA Box URL for source lexicon:** https://virginia.box.com/s/47dfiqhshs5yq4yuu92dbjo3gd0xvsre (from https://github.com/fnielsen/afinn/blob/master/afinn/data/ and built into Python)
-- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/Sentiment.ipynb
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/VOCAB_SENT.ipynb
 - **Delimiter:** |
 
 ### BOW_SENT (4)
@@ -260,7 +260,7 @@ Sentiment values associated with a subset of the VOCAB from a curated sentiment 
 Sentiment values from VOCAB_SENT mapped onto BOW.
 
 - **UVA Box URL:** https://virginia.box.com/s/6xr0mdmmc7rz5lz0invby3sonn5139wv
-- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/Sentiment.ipynb
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/BOW_SENT.ipynb
 - **Delimiter:** |
 
 ### DOC_SENT (4)
@@ -268,7 +268,7 @@ Sentiment values from VOCAB_SENT mapped onto BOW.
 Computed sentiment per bag computed from BOW_SENT.
 
 - **UVA Box URL:** https://virginia.box.com/s/g5r3ewbexgjc13pu1zqm21v3rpbuy5pb
-- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/Sentiment.ipynb
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/DOC_SENT.ipynb
 - **Delimiter:** |
 - **Document bag expressed in terms of OHCO levels:** Title
 
