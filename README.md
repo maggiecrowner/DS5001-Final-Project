@@ -69,7 +69,7 @@ Parse the raw data into the three core tables of your edition: the `LIB`, `CORPU
 The source documents the corpus comprises. These may be books, plays, newspaper articles, abstracts, blog posts, etc. Note that these are not documents in the sense used to describe a bag-of-words representation of a text, e.g. chapter.
 
 - **UVA Box URL:** https://virginia.box.com/s/fhzudg34je9xls5bfcbi4xdnaiek74rj
-- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/ParsedandAnnotatedData.ipynb
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/LIB.ipynb
 - **Delimiter:** |
 - **Number of observations:** 2960 (songs with unreleased lyrics were removed from the raw files)
 - **List of features, including at least three that may be used for model summarization (e.g. date, author, etc.):** Artist, Album, Title, Year, Decade, doc_length_words, doc_length_chars
@@ -80,7 +80,7 @@ The source documents the corpus comprises. These may be books, plays, newspaper 
 The sequence of word tokens in the corpus, indexed by their location in the corpus and document structures.
 
 - **UVA Box URL:** https://virginia.box.com/s/ijkqovrdgvrmctsdqobymig2p98q9x0m
-- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/ParsedandAnnotatedData.ipynb
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/CORPUS.ipynb
 - **Delimiter:** |
 - **Number of observations** (should be >= 500,000 and <= 2,000,000): 985352
 - **OHCO Structure (as delimited column names):** Artist, Album, Title, token_str
@@ -91,7 +91,7 @@ The sequence of word tokens in the corpus, indexed by their location in the corp
 The unique word types (terms) in the corpus.
 
 - **UVA Box URL:** https://virginia.box.com/s/a2njs9ipjxrgam9un7sr4yn3f6f196ny
-- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/ParsedandAnnotatedData.ipynb
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/VOCAB.ipynb
 - **Delimiter:** |
 - **Number of observations:** 19104
 - **Columns (as delimited names, including `n`, `p`, `i`, `dfidf`, `porter_stem`, `max_pos`, `max_pos_group`, `stop`):** term_str (index); n, p, i, dfidf, porter_stem, max_pos, max_pos_group, stop, ngram_length
@@ -111,7 +111,7 @@ The unique word types (terms) in the corpus.
 A bag-of-words representation of the CORPUS.
 
 - **UVA Box URL:** https://virginia.box.com/s/jnjmet326j10jijnzwjcj87n35dfjkwl
-- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/DerivedTables.ipynb
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/BOW.ipynb
 - **Delimiter:** |
 - **Bag (expressed in terms of OHCO levels):** Title
 - **Number of observations:** 235266
@@ -122,8 +122,8 @@ A bag-of-words representation of the CORPUS.
 A representation of the BOW as a sparse count matrix.
 
 - **UVA Box URL:** https://virginia.box.com/s/9g0v251d9103gw4xibbhwvks7m9pc2d2
-- **UVA Box URL of BOW used to generate (if applicable):** See above, generated in same notebook
-- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/DerivedTables.ipynb
+- **UVA Box URL of BOW used to generate (if applicable):** https://virginia.box.com/s/jnjmet326j10jijnzwjcj87n35dfjkwl
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/DTM.ipynb
 - **Delimiter:** |
 - **Bag (expressed in terms of OHCO levels):** Title
 
@@ -132,8 +132,8 @@ A representation of the BOW as a sparse count matrix.
 A Document-Term matrix with TFIDF values.
 
 - **UVA Box URL:** https://virginia.box.com/s/cieo8adcs24q8bhd3wdxmjcv47dor6c7
-- **UVA Box URL of DTM or BOW used to create:** See above, generated in same notebook
-- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/DerivedTables.ipynb
+- **UVA Box URL of DTM or BOW used to create:** https://virginia.box.com/s/9g0v251d9103gw4xibbhwvks7m9pc2d2
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/TFIDF.ipynb
 - **Delimiter:** |
 - **Description of TFIDF formula:** TF sum method - term count divided by total number of terms in the document; IDF standard method - log_2 of number of documents divided by total number of documents the term appears in; TFIDF - TF * IDF 
 
@@ -142,8 +142,8 @@ A Document-Term matrix with TFIDF values.
 A Document-Term matrix with L2 normalized TFIDF values.
 
 - **UVA Box URL:** https://virginia.box.com/s/959w70gbj2ckxew7clguvy3updzfn3t6
-- **UVA Box URL of source TFIDF table:** See above, generated in same notebook
-- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/DerivedTables.ipynb
+- **UVA Box URL of source TFIDF table:** https://virginia.box.com/s/cieo8adcs24q8bhd3wdxmjcv47dor6c7
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/TFIDF_L2.ipynb
 - **Delimiter:** |
 - **Number of features (i.e. significant words):** 8350
 - **Principle of significant word selection:** Terms only appearing in one document were removed, terms appearing in at least 2 documents were deemed "significant" and kept in the L2 normalized TFIDF matrix
@@ -156,7 +156,7 @@ A Document-Term matrix with L2 normalized TFIDF values.
 
 - **UVA Box URL:** https://virginia.box.com/s/8ymkfcpm7c469zgb5dg6082jxamad0bk
 - **UVA Box URL of the source TFIDF_L2 table:** https://virginia.box.com/s/959w70gbj2ckxew7clguvy3updzfn3t6
-- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/Models.ipynb
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/PCA_Components.ipynb
 - **Delimiter:** |
 - **Number of components:** 5
 - **Library used to generate:** sklearn
@@ -168,7 +168,7 @@ A Document-Term matrix with L2 normalized TFIDF values.
 The document-component matrix generated.
 
 - **UVA Box URL:** https://virginia.box.com/s/nh6ln5dyzodmuy0o5rwvun5yzilewe03
-- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/Models.ipynb
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/PCA_DCM.ipynb
 - **Delimiter:** |
 
 ### PCA Loadings (4)
@@ -176,7 +176,7 @@ The document-component matrix generated.
 The component-term matrix generated.
 
 - **UVA Box URL:** https://virginia.box.com/s/tpofa2p0mq3rgqpyrk0vf4ak3nzyjtxe
-- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/Models.ipynb
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/PCA_Loadings.ipynb
 - **Delimiter:** |
 
 ### PCA Visualization 1 (4)
@@ -207,7 +207,7 @@ Include a scatterplot of documents in the space created by the second two compon
 
 - **UVA Box URL:** https://virginia.box.com/s/6pe3vhldpplll34eknsemewu69nzvhu0
 - **UVA Box URL of count matrix used to create:** https://virginia.box.com/s/nnebliv2gx3znq8vvwso0vx6yhtd4s3l
-- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/Models2.ipynb
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/LDA_TOPIC.ipynb
 - **Delimiter:** |
 - **Library used to compute:** sklearn
 - **A description of any filtering, e.g. POS (Nouns and Verbs only):** Default English stop words removed using the text package, filtered to include nouns only
@@ -225,13 +225,13 @@ Include a scatterplot of documents in the space created by the second two compon
 ### LDA THETA (4)
 
 - **UVA Box URL:** https://virginia.box.com/s/xap24wuixe7l1gm0xnhywtddmfmij38e
-- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/Models2.ipynb
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/LDA_THETA.ipynb
 - **Delimiter:** |
 
 ### LDA PHI (4)
 
 - **UVA Box URL:** https://virginia.box.com/s/w4j0xqikvfp8qj9obnsprf6peluoo64o
-- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/Models2.ipynb
+- **GitHub URL for notebook used to create:** https://github.com/maggiecrowner/DS5001-Final-Project/blob/main/LDA_PHI.ipynb
 - **Delimiter:** |
 
 ### LDA + PCA Visualization (4)
